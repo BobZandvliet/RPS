@@ -68,11 +68,4 @@ function game(){
 }
 
 game()
-// console.log(playRound());
-// console.log("your score = " + playerScore + " pc score = " + computerScore);
-// console.log(playRound());
-// console.log("your score = " + playerScore + " pc score = " + computerScore);
-// console.log(playRound());
-// console.log("your score = " + playerScore + " pc score = " + computerScore);
-// console.log(playRound());
-// console.log("your score = " + playerScore + " pc score = " + computerScore);
+
