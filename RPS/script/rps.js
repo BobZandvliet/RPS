@@ -5,21 +5,24 @@ let computerScore = 0
 
 function computerPlay(){
 compNbr = Math.floor(Math.random() * 3);
-if (compNbr == 0){
-return("rock");
-} else if (compNbr == 1){
-return("paper");
-} else if (compNbr == 2){
-return("scissor");
-}
-}
+    if (compNbr == 0){
+        return("rock");
+    }
+    else if (compNbr == 1){
+        return("paper");
+    }
+    else if (compNbr == 2){
+        return("scissor");
+    }
+    }
 
 
 
 function playRound(playerSelection){
-  let computerSelection = computerPlay()
+  let computerSelection = computerPlay();
 
-    playerSelection = prompt("Rock , Paper or Scissor");
+
+   playerSelection = prompt("Rock , Paper or Scissor");
 
     if (playerSelection.toLowerCase() === "rock" && computerSelection === "rock"){
       return("its a tie - You played " + playerSelection.toLowerCase() + " and pc played " + computerSelection);
@@ -68,4 +71,11 @@ function game(){
 }
 
 game()
-
+// console.log(playRound());
+// console.log("your score = " + playerScore + " pc score = " + computerScore);
+// console.log(playRound());
+// console.log("your score = " + playerScore + " pc score = " + computerScore);
+// console.log(playRound());
+// console.log("your score = " + playerScore + " pc score = " + computerScore);
+// console.log(playRound());
+// console.log("your score = " + playerScore + " pc score = " + computerScore);
